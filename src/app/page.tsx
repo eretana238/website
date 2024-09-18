@@ -1,101 +1,164 @@
+import type { Metadata } from 'next'
 import Image from "next/image";
+
+import profilePic from "../public/myself.jpg";
+import StatusIndicator from "./components/status";
+import JobCard from "./components/job-card";
+import ViewResume from "./components/view-resume";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+interface CustomDividerProps {
+  title: string;
+}
+
+const CustomDivider: React.FC<CustomDividerProps> = ({ title }) => {
+  return (
+    <div className="flex items-center space-x-4 my-4 w-full relative">
+      <h2 className="font-semibold text-gray-300">{title}</h2>
+      <hr className="w-full md:w-1/2" />
+    </div>
+  );
+};
+
+ 
+export const metadata: Metadata = {
+  title: "Esteban Retana - Software Engineer Portfolio",
+  description: "Experienced software engineer specializing in full-stack development, building automation, and ETL systems. Proficient in React, Java, Python, and more.",
+  keywords: ["Software Engineer", "Full Stack Developer", "React", "Java", "Python", "Building Automation", "ETL"],
+  authors: [{ name: "Esteban Retana" }],
+  openGraph: {
+    title: "Esteban Retana - Software Engineer Portfolio",
+    description: "Experienced software engineer specializing in full-stack development, building automation, and ETL systems. Proficient in React, Java, Python, and more.",
+    type: "website",
+    url: "https://www.eretana.com", // Replace with your actual URL
+    images: [
+      {
+        url: "https://www.eretana.com/myself.jpg", // Replace with your actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Esteban Retana - Software Engineer",
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: "https://www.eretana.com", // Replace with your canonical URL
+  },
+}
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+    <div className="p-4">
+      <section id="header" className="p-4">
+        <div className="max-w-[1300px] m-auto flex flex-col md:flex-row md:items-center">
+          <div className="flex flex-col gap-4 mt-10">
+            <h1 className="text-4xl sm:text-5xl font-bold">Esteban Retana</h1>
+            <div className="flex flex-col md:flex-row gap-4">
+              <p className="text-gray-300 font-semibold">Software Engineer</p>
+                <p className="hidden md:block">|</p>
+              <StatusIndicator isLookingForJob={true} />
+            </div>
+            <div className="flex space-x-4 py-4">
+              <a href="https://github.com/eretana238" target="_blank">
+              <FaGithub size={35} />
+              </a>
+              <a href="https://www.linkedin.com/in/esteban-retana-98a6b6174/" target="_blank">
+              <FaLinkedin size={35} />
+              </a>
+            </div>
+          </div>
+            <div className="md:p-8">
+            <Image 
+              src={profilePic} 
+              alt="Profile Picture" 
+              className="rounded-full w-32 h-32 object-cover object-top shadow-sm" 
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+      <section id="about" className="p-4">
+        <div className="max-w-[1300px] m-auto">
+          <CustomDivider title="About" />
+          <p className="max-w-[800px] text-gray-300 py-4">
+            I am a software engineer with a passion for building scalable
+            solutions. I have experience in full-stack development, cloud
+            computing, and data engineering. I am always looking for new
+            challenges and opportunities to grow.
+          </p>
+        </div>
+      </section>
+      <section id="experience" className="p-4">
+        <div className="max-w-[1300px] m-auto">
+          <div className="">
+            <CustomDivider title="Job Experience" />
+            <JobCard
+              jobTitle="Software Engineer"
+              date="Oct 2022 - Present"
+              companyName="Applied BAS"
+              location="Dallas, TX"
+              points={[
+                "Led website redesign, improving SEO and reducing page load latency by 11%.",
+                "Architected scalable ETL microservices ecosystem, integrating enterprise accounting platforms with internal systems",
+                "Engineered data transformation algorithms for a centralized data warehouse, improving syncing time by 18%",
+                "Pioneered development of Niagara Modules for building automation across multiple facilities",
+                "Engineered a Cryptographic Versioning Framework, improving Java code signing efficiency by 20%.",
+              ]}
+              tech={[
+                "Next.js",
+                "React.js",
+                "Java",
+                "Python",
+                "Typescript",
+                "FastAPI",
+                "Spring Boot",
+                "Nginx",
+                "Docker",
+                "AWS",
+                "GCP",
+              ]}
+            />
+            <JobCard
+              jobTitle="Software Engineer Intern"
+              date="June 2022 - September 2022"
+              companyName="Applied BAS"
+              location="Dallas, TX"
+              points={[
+                "Optimized iOS Service Report Manager app, enhancing PDF generation and resolving critical bugs, resulting in 30% improved app performance.",
+                "Designed and implemented a high-performance mailing communication platform.",
+                "Collaborated with CEO and managers to propose and implement productivity-enhancing services.",
+              ]}
+              tech={["iOS", "FastAPI", "Python"]}
+            />
+          </div>
+          <div className="mt-8">
+            <CustomDivider title="Academic Experience" />
+            <JobCard
+              jobTitle="Internal Penetration Test Logger Suite Developer"
+              date="August 2021 – December 2021"
+              companyName="DEVCOM (Academic Project)"
+              location=""
+              points={[
+                "Developed an advanced penetration testing suite, monitoring 100,000+ objects in real-time.",
+                "Architected a robust penetration testing ecosystem using comprehensive visual modeling.",
+                "Led client demonstrations of software solutions.",
+                "Served as Customer Interface Manager, bridging penetration testers and engineers.",
+              ]}
+              tech={["Python", "Visual Modeling tools"]}
+            />
+          </div>
+          <ViewResume />
+        </div>
+      </section>
     </div>
   );
 }
