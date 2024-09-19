@@ -1,6 +1,4 @@
 "use client";
-
-import Link from "next/link";
 import React from "react";
 
 export default function ViewResume() {
@@ -9,7 +7,7 @@ export default function ViewResume() {
     return (
         <div className="my-20">
             <h2 className="text-3xl">Want to see my work experience in more detail?</h2>
-            <Link href="/public/Resume.pdf" className="flex items-center space-x-4 p-4" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+            <a href="/Resume.pdf" className="flex items-center space-x-4 p-4" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} download="resume">
               <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -25,7 +23,7 @@ export default function ViewResume() {
                 />
               </svg>
               <h2>View Full Resume</h2>
-            </Link>
+            </a>
         </div>
     )
 }
