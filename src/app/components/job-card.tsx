@@ -44,7 +44,7 @@ const JobCard: React.FC<JobCardProps> = ({
   );
 };
 
-const TechTag: React.FC<{ tech: string }> = ({ tech }) => {
+export const TechTag: React.FC<{ tech: string }> = ({ tech }) => {
   return (
     <span className="px-3 py-1 bg-[#19312d] hover:bg-[#274d46] rounded-full text-sm text-[#61e9d2] hover:cursor-pointer transition-all">
       {tech}
