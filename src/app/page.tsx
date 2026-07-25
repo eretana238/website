@@ -115,7 +115,7 @@ export default function Home() {
             <Image
               src={profilePic}
               alt="Profile Picture"
-              className="rounded-full w-32 h-32 object-cover object-top shadow-sm"
+              className="rounded-full w-32 h-32 object-cover object-top shadow-xs"
             />
           </div>
         </div>
