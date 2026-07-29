@@ -18,9 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`bg-white text-black dark:bg-[#0d141d] dark:text-white`}
-      >
+      <body className="bg-white text-black antialiased">
         {children}
         <SpeedInsights />
       </body>
