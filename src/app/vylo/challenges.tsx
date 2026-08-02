@@ -4,7 +4,7 @@ const CHALLENGES = [
   {
     n: "01",
     title: "Presence at scale",
-    body: "Know who’s online, searching, matched, or gone — and keep that truth synchronized across concurrent sessions.",
+    body: "Know who’s online, searching, matched, or gone, and keep that truth synchronized across concurrent sessions.",
   },
   {
     n: "02",
@@ -14,7 +14,7 @@ const CHALLENGES = [
   {
     n: "03",
     title: "Ephemeral session state",
-    body: "Join, match, skip, drop, reconnect — in seconds. Durable data stays separate from live session state.",
+    body: "Join, match, skip, drop, reconnect in seconds. Durable data stays separate from live session state.",
   },
   {
     n: "04",
@@ -28,7 +28,7 @@ export default function VyloChallenges() {
     <section className="bg-neutral-50 px-5 py-24 sm:px-8 sm:py-32 lg:px-10 lg:py-40">
       <Reveal>
         <p className="text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:text-sm">
-          07 — ENGINEERING
+          07 · ENGINEERING
         </p>
         <h2 className="mt-5 max-w-[36rem] text-[clamp(2.5rem,5.5vw,4.75rem)] font-black leading-[1.02] tracking-tight">
           Hard problems.

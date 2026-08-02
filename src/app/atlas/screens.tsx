@@ -6,7 +6,7 @@ export default function AtlasScreens() {
       <div className="mb-12 flex flex-col gap-6 px-5 sm:mb-16 sm:px-8 lg:mb-20 lg:flex-row lg:items-end lg:justify-between lg:px-10">
         <Reveal className="max-w-[36rem]">
           <p className="text-[10px] font-medium tracking-[0.35em] text-white/40 sm:text-sm">
-            09 — INTERFACE
+            09 · INTERFACE
           </p>
           <h2 className="mt-5 text-[clamp(2.5rem,5.5vw,4.75rem)] font-black leading-[1.02] tracking-tight">
             Clean. Fast.
@@ -33,7 +33,7 @@ export default function AtlasScreens() {
             />
           </div>
           <figcaption className="mt-4 text-[10px] font-medium tracking-[0.25em] text-white/40 uppercase">
-            Portfolio dashboard — what needs attention
+            Portfolio dashboard · what needs attention
           </figcaption>
         </figure>
         <figure className="reveal-child">
@@ -46,7 +46,7 @@ export default function AtlasScreens() {
             />
           </div>
           <figcaption className="mt-4 text-[10px] font-medium tracking-[0.25em] text-white/40 uppercase">
-            Alarms — real-time monitor & respond
+            Alarms · real-time monitor & respond
           </figcaption>
         </figure>
       </RevealStagger>

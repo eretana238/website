@@ -47,7 +47,7 @@ export default function AtlasHero() {
 
           <Reveal eager delay={200}>
             <p className="mt-4 max-w-[32rem] text-lg leading-snug text-white/75 sm:mt-6 sm:text-xl lg:text-2xl">
-              AI-powered building intelligence — turn complex BMS data into
+              AI-powered building intelligence. Turn complex BMS data into
               clear, actionable insight.
             </p>
           </Reveal>

@@ -23,14 +23,14 @@ export default function AtlasClose() {
       <div className="grid gap-16 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] lg:gap-20">
         <Reveal>
           <p className="text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:text-sm">
-            10 — ROLE & OUTCOME
+            10 · ROLE & OUTCOME
           </p>
           <h2 className="mt-5 text-[clamp(2.5rem,5.5vw,4.75rem)] font-black leading-[1.02] tracking-tight">
             Extend the BMS.
             <span className="text-[#a3a0ad]"> Don’t replace it.</span>
           </h2>
           <p className="mt-8 max-w-[34rem] text-lg leading-relaxed text-neutral-600 sm:text-xl">
-            Designed and engineered end-to-end — from Niagara modules and AWS to
+            Designed and engineered end-to-end, from Niagara modules and AWS to
             operator UX and AI context. A bridge between decades of building
             automation and modern cloud software.
           </p>

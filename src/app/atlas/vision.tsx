@@ -4,7 +4,7 @@ export default function AtlasVision() {
   return (
     <section className="relative overflow-hidden px-5 py-28 sm:px-8 sm:py-36 lg:px-10 lg:py-44">
       <p className="text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:text-sm">
-        03 — VISION
+        03 · VISION
       </p>
       <Reveal className="mt-8 max-w-[1100px]">
         <blockquote>

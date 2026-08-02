@@ -14,7 +14,7 @@ export default function VyloArchitecture() {
     <section className="px-5 py-24 sm:px-8 sm:py-32 lg:px-10 lg:py-40">
       <Reveal className="mb-14 max-w-[40rem] sm:mb-16 lg:mb-20">
         <p className="text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:text-sm">
-          06 — SYSTEM
+          06 · SYSTEM
         </p>
         <h2 className="mt-5 text-[clamp(2.5rem,5.5vw,4.75rem)] font-black leading-[1.02] tracking-tight">
           Real-time system.

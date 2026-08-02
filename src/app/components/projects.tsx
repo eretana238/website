@@ -30,10 +30,10 @@ export default function Projects() {
         <div className="mb-8 flex flex-col gap-4 sm:mb-10 sm:flex-row sm:items-end sm:justify-between lg:mb-12">
           <div>
             <p className="mb-2 text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:mb-3 sm:text-sm">
-              GREAT WORK
+              FEATURED PROJECTS
             </p>
-            <h2 className="text-[clamp(3rem,8vw,7rem)] font-black uppercase tracking-tight text-black">
-              Featured Projects
+            <h2 className="font-black uppercase leading-[0.88] tracking-tight text-black text-[9.5vw] md:text-[8vw]">
+              Selected Work
             </h2>
           </div>
 
