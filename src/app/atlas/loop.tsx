@@ -4,7 +4,7 @@ const STEPS = [
   {
     n: "01",
     title: "Portfolio",
-    body: "Instant snapshot across buildings — alarms, comfort, status, weather, and AI insights in one view.",
+    body: "Instant snapshot across buildings: alarms, comfort, status, weather, and AI insights in one view.",
   },
   {
     n: "02",
@@ -14,7 +14,7 @@ const STEPS = [
   {
     n: "03",
     title: "Equipment",
-    body: "Focused AHU, VAV, and device views — temperatures, setpoints, commands, and alarms that matter.",
+    body: "Focused AHU, VAV, and device views with temperatures, setpoints, commands, and alarms that matter.",
   },
   {
     n: "04",
@@ -29,7 +29,7 @@ export default function AtlasLoop() {
       <div className="mb-16 flex flex-col gap-6 sm:mb-20 lg:mb-24 lg:flex-row lg:items-end lg:justify-between">
         <div className="max-w-[42rem]">
           <p className="text-[10px] font-medium tracking-[0.35em] text-white/40 sm:text-sm">
-            02 — NAVIGATION MODEL
+            02 · NAVIGATION MODEL
           </p>
           <h2 className="mt-5 text-[clamp(2.5rem,5.5vw,4.75rem)] font-black leading-[1.02] tracking-tight">
             Portfolio → Building → System →{" "}

@@ -4,12 +4,12 @@ const STEPS = [
   {
     n: "01",
     title: "Discover",
-    body: "Ambient presence — who’s active nearby or farther out — without turning the app into a profile catalog.",
+    body: "Ambient presence shows who’s active nearby or farther out, without turning the app into a profile catalog.",
   },
   {
     n: "02",
     title: "Match",
-    body: "Queue in. Connect. Distance, language, interests, preferences, region — all behind one simple action.",
+    body: "Queue in. Connect. Distance, language, interests, preferences, and region all sit behind one simple action.",
   },
   {
     n: "03",
@@ -29,7 +29,7 @@ export default function VyloLoop() {
       <div className="mb-16 flex flex-col gap-6 sm:mb-20 lg:mb-24 lg:flex-row lg:items-end lg:justify-between">
         <div className="max-w-[40rem]">
           <p className="text-[10px] font-medium tracking-[0.35em] text-white/40 sm:text-sm">
-            02 — PRODUCT LOOP
+            02 · PRODUCT LOOP
           </p>
           <h2 className="mt-5 text-[clamp(2.5rem,5.5vw,4.75rem)] font-black leading-[1.02] tracking-tight">
             Discover → Match → Talk →{" "}

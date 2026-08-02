@@ -72,7 +72,7 @@ export default function Hero() {
             <p className="mb-2 text-[10px] font-medium tracking-[0.35em] text-white/70 sm:mb-3 sm:text-sm">
               SOFTWARE ENGINEER
             </p>
-            <h1 className="font-black uppercase leading-[0.88] tracking-tight text-white text-[10.5vw] md:text-[9vw]">
+            <h1 className="font-black uppercase leading-[0.88] tracking-tight text-white text-[9.5vw] md:text-[8vw]">
               Engineering
               <br />
               Digital

@@ -7,7 +7,7 @@ const PILLARS = [
   },
   {
     title: "Intelligent Matchmaking",
-    copy: "Preferences and constraints evaluated in real time — without exposing the machinery to the user.",
+    copy: "Preferences and constraints evaluated in real time, without exposing the machinery to the user.",
   },
   {
     title: "Real-Time Video",
@@ -24,7 +24,7 @@ export default function VyloPillars() {
     <section className="border-y border-neutral-200 px-5 py-20 sm:px-8 sm:py-28 lg:px-10 lg:py-32">
       <div className="mb-10 sm:mb-14">
         <p className="text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:text-sm">
-          04 — CORE EXPERIENCE
+          04 · CORE EXPERIENCE
         </p>
         <h2 className="mt-4 text-[clamp(2rem,4.5vw,3.75rem)] font-black tracking-tight">
           Four surfaces

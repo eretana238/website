@@ -14,11 +14,11 @@ export default function VyloSafety() {
     <section className="grid lg:grid-cols-2">
       <div className="bg-[#0a0a0a] px-5 py-24 text-white sm:px-8 sm:py-32 lg:px-12 lg:py-40 xl:px-16">
         <p className="text-[10px] font-medium tracking-[0.35em] text-white/40 sm:text-sm">
-          05 — SAFETY
+          05 · SAFETY
         </p>
         <Reveal>
           <h2 className="mt-5 text-[clamp(2.25rem,4.5vw,4rem)] font-black leading-[1.05] tracking-tight">
-            Safety as architecture — not an afterthought.
+            Safety as architecture, not an afterthought.
           </h2>
         </Reveal>
         <p className="mt-8 max-w-[28rem] text-base leading-relaxed text-white/55 sm:text-lg">

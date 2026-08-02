@@ -3,7 +3,7 @@ import { RevealStagger } from "../components/reveal";
 const PILLARS = [
   {
     title: "Portfolio Overview",
-    copy: "Alarms, comfort, temperatures, equipment needing attention, weather, anomalies, and AI insights — portfolio-wide.",
+    copy: "Alarms, comfort, temperatures, equipment needing attention, weather, anomalies, and AI insights across the portfolio.",
   },
   {
     title: "Building Intelligence",
@@ -11,7 +11,7 @@ const PILLARS = [
   },
   {
     title: "Equipment Focus",
-    copy: "AHUs, VAVs, sensors, controllers — only the points, setpoints, commands, and alarms that matter.",
+    copy: "AHUs, VAVs, sensors, controllers. Only the points, setpoints, commands, and alarms that matter.",
   },
   {
     title: "Designed for Operators",
@@ -24,7 +24,7 @@ export default function AtlasPillars() {
     <section className="border-y border-neutral-200 px-5 py-20 sm:px-8 sm:py-28 lg:px-10 lg:py-32">
       <div className="mb-10 sm:mb-14">
         <p className="text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:text-sm">
-          04 — PRODUCT SURFACES
+          04 · PRODUCT SURFACES
         </p>
         <h2 className="mt-4 text-[clamp(2rem,4.5vw,3.75rem)] font-black tracking-tight">
           Built for how operators work

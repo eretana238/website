@@ -21,14 +21,14 @@ export default function VyloClose() {
       <div className="grid gap-16 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] lg:gap-20">
         <Reveal>
           <p className="text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:text-sm">
-            09 — ROLE & OUTCOME
+            09 · ROLE & OUTCOME
           </p>
           <h2 className="mt-5 text-[clamp(2.5rem,5.5vw,4.75rem)] font-black leading-[1.02] tracking-tight">
             One product.
             <span className="text-[#a3a0ad]"> One system.</span>
           </h2>
           <p className="mt-8 max-w-[34rem] text-lg leading-relaxed text-neutral-600 sm:text-xl">
-            Designed and built end-to-end — product decisions feeding architecture
+            Designed and built end-to-end, with product decisions feeding architecture
             directly. Not screens bolted onto an API. A complete real-time
             consumer system.
           </p>

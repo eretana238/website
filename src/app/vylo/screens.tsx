@@ -6,7 +6,7 @@ export default function VyloScreens() {
       <div className="mb-12 flex flex-col gap-6 px-5 sm:mb-16 sm:px-8 lg:mb-20 lg:flex-row lg:items-end lg:justify-between lg:px-10">
         <Reveal className="max-w-[36rem]">
           <p className="text-[10px] font-medium tracking-[0.35em] text-white/40 sm:text-sm">
-            08 — INTERFACE
+            08 · INTERFACE
           </p>
           <h2 className="mt-5 text-[clamp(2.5rem,5.5vw,4.75rem)] font-black leading-[1.02] tracking-tight">
             Minimal. Native.
@@ -31,7 +31,7 @@ export default function VyloScreens() {
             className="h-auto w-full"
           />
           <figcaption className="mt-4 text-[10px] font-medium tracking-[0.25em] text-white/40 uppercase">
-            Live matching — presence & video
+            Live matching · presence & video
           </figcaption>
         </figure>
         <figure className="reveal-child overflow-hidden rounded-[1.25rem] sm:rounded-[1.75rem]">

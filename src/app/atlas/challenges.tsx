@@ -4,7 +4,7 @@ const CHALLENGES = [
   {
     n: "01",
     title: "Bridging OT and cloud",
-    body: "Translate points, devices, schedules, and alarms into structures a SaaS app can consume — without fighting how Niagara actually works.",
+    body: "Translate points, devices, schedules, and alarms into structures a SaaS app can consume, without fighting how Niagara actually works.",
   },
   {
     n: "02",
@@ -14,7 +14,7 @@ const CHALLENGES = [
   {
     n: "03",
     title: "Making AI understand a building",
-    body: "An LLM isn’t useful on isolated sensor values. Context — relationships, setpoints, alarms, schedules — is the real product.",
+    body: "An LLM isn’t useful on isolated sensor values. Context like relationships, setpoints, alarms, and schedules is the real product.",
   },
   {
     n: "04",
@@ -28,7 +28,7 @@ export default function AtlasChallenges() {
     <section className="bg-neutral-50 px-5 py-24 sm:px-8 sm:py-32 lg:px-10 lg:py-40">
       <Reveal>
         <p className="text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:text-sm">
-          08 — ENGINEERING
+          08 · ENGINEERING
         </p>
         <h2 className="mt-5 max-w-[36rem] text-[clamp(2.5rem,5.5vw,4.75rem)] font-black leading-[1.02] tracking-tight">
           Hard problems.

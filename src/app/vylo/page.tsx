@@ -14,11 +14,11 @@ import VyloScreens from "./screens";
 import VyloClose from "./close";
 
 export const metadata: Metadata = {
-  title: "Vylo — Real-Time Social Video",
+  title: "Vylo · Real-Time Social Video",
   description:
     "Case study: Vylo is a presence-first social video platform combining iOS, Rust, WebRTC, matchmaking, messaging, and safety systems.",
   openGraph: {
-    title: "Vylo — Real-Time Social Video | Esteban Retana",
+    title: "Vylo · Real-Time Social Video | Esteban Retana",
     description:
       "See who's around. Connect instantly. Keep the people worth knowing. End-to-end case study of a real-time social video product.",
     type: "article",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: "https://www.eretana.com/vylo/banner.png",
         width: 1200,
         height: 630,
-        alt: "Vylo — Real-Time Social Video Platform",
+        alt: "Vylo · Real-Time Social Video Platform",
       },
     ],
   },

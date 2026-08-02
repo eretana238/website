@@ -4,7 +4,7 @@ export default function VyloVision() {
   return (
     <section className="relative overflow-hidden px-5 py-28 sm:px-8 sm:py-36 lg:px-10 lg:py-44">
       <p className="text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:text-sm">
-        03 — VISION
+        03 · VISION
       </p>
       <Reveal className="mt-8 max-w-[1100px]">
         <blockquote>
@@ -18,7 +18,7 @@ export default function VyloVision() {
         </blockquote>
       </Reveal>
       <p className="mt-10 max-w-[28rem] text-base leading-relaxed text-neutral-500 sm:mt-12 sm:text-lg">
-        Not another feed. An ambient network that feels alive — then a path from
+        Not another feed. An ambient network that feels alive, then a path from
         a spontaneous call to a lasting connection.
       </p>
     </section>

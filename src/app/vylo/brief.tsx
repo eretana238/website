@@ -9,7 +9,7 @@ export default function VyloBrief() {
       <div className="grid gap-12 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-20 xl:gap-28">
         <Reveal>
           <p className="text-[10px] font-medium tracking-[0.35em] text-neutral-400 sm:text-sm">
-            01 — BRIEF
+            01 · BRIEF
           </p>
           <h2 className="mt-5 text-[clamp(2.5rem,5.5vw,4.75rem)] font-black leading-[1.02] tracking-tight">
             Spontaneity of random video.
@@ -19,7 +19,7 @@ export default function VyloBrief() {
 
         <div className="flex flex-col justify-end gap-8 lg:pt-16">
           <p className="max-w-[34rem] text-lg leading-relaxed text-neutral-600 sm:text-xl lg:text-2xl">
-            Most social platforms are built for waiting — browse, message, hope
+            Most social platforms are built for waiting. Browse, message, hope
             for a reply. Random video solves immediacy, then burns trust, safety,
             and anything worth keeping.
           </p>
